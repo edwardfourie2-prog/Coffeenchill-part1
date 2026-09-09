@@ -5,7 +5,6 @@ namespace CoffeeNChillFunctions.Models
 {
     public class MenuItem : ITableEntity
     {
-        // PartitionKey = Category (e.g. "Hot Drinks")
         public string PartitionKey { get; set; } = string.Empty;
 
         public string RowKey { get; set; } = string.Empty;
